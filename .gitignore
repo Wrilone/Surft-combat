@@ -5,8 +5,8 @@ out/
 *.log
 *.pid
 *.tsbuildinfo
-.env*
-!.env.example
+.env
+.env.*
 coverage/
 dist/
 build/
