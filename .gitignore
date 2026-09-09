@@ -1,1 +1,14 @@
-node_modules
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+*.pid
+*.tsbuildinfo
+.env*
+!.env.example
+coverage/
+dist/
+build/
+.vite/
+
