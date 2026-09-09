@@ -1,0 +1,29 @@
+
+> surft-combat@1.0.0 build
+> next build
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of c:\Users\user\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * c:\Users\user\Desktop\Surft Combat Game\package-lock.json
+
+   ▲ Next.js 15.5.25
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 6.5s
+   Linting and checking validity of types ...
+Failed to compile.
+
+./game/systems/particles.ts:52:5
+Type error: Type '"#22E4C8"' is not assignable to type '"#FFC23C"'.
+
+[0m [90m 50 |[39m     [36mthis[39m[33m.[39mvx [33m=[39m [35m0[39m[33m;[39m
+ [90m 51 |[39m     [36mthis[39m[33m.[39mvy [33m=[39m [35m0[39m[33m;[39m
+[31m[1m>[22m[39m[90m 52 |[39m     [36mthis[39m[33m.[39mcolor [33m=[39m color[33m;[39m
+ [90m    |[39m     [31m[1m^[22m[39m
+ [90m 53 |[39m     [36mthis[39m[33m.[39msize [33m=[39m [35m2[39m[33m;[39m [90m// radius[39m
+ [90m 54 |[39m     [36mthis[39m[33m.[39mlife [33m=[39m [35m0.35[39m[33m;[39m
+ [90m 55 |[39m     [36mthis[39m[33m.[39mmaxLife [33m=[39m [36mthis[39m[33m.[39mlife[33m;[39m[0m
+Next.js build worker exited with code: 1 and signal: null
